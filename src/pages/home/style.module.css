@@ -1,0 +1,170 @@
+.mainDiv {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	max-height: 70vh;
+	margin-top: 15vh;
+	/*margin-bottom: 15vh;*/
+	/*max-width: 115.2rem;*/
+}
+
+.mainSec {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 85vw;
+}
+
+.sideDesign {
+	width: 15vw;
+}
+
+.head h1 {
+	color: #002d72;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 2.7vw;
+	line-height: 3vw;
+	text-align: center;
+}
+
+.head p {
+	color: #5875a1;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.1vw;
+	line-height: 2vw;
+	/* identical to box height */
+
+	letter-spacing: -0.01em;
+	text-align: center;
+}
+
+.btns {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	/*width: 85vw;*/
+}
+
+.cts {
+	display: none;
+}
+
+.btn {
+	/*margin-right: 1rem;*/
+}
+
+.btn h3 {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1vw;
+	line-height: 2vw;
+	/* identical to box height */
+	text-align: center;
+	/* Text/dark */
+
+	color: #5875a1;
+}
+
+.submit {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.helpDiv {
+	flex-wrap: nowrap;
+	position: absolute;
+	top: 4rem;
+	right: 2rem;
+	color: #2c65d3;
+	font-size: 1.3rem;
+	cursor: pointer;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 8vw;
+}
+
+.line {
+	position: relative;
+	width: 0;
+	height: 83px;
+	left: 2rem;
+	top: 4rem;
+	border-left: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+/*<--------------------- Mobile Design ------------------------------------>*/
+
+@media screen and (max-width: 834px) {
+	.mainDiv {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		max-height: 85vh;
+		width: 100vw;
+		overflow: hidden;
+		/*margin-top: 15vh;*/
+		margin-bottom: 0vh;
+	}
+
+	.mainSec {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 100vw;
+		height: 65vh;
+		/*margin-bottom: 5rem;*/
+	}
+	.sideDesign {
+		height: 15vh;
+		width: 100vw;
+	}
+
+	.line {
+		display: none;
+	}
+
+	.head h1 {
+		font-size: 4vw;
+	}
+	.head p {
+		font-size: 2vw;
+	}
+	.btns {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.btn{
+		margin-bottom: 3rem;
+	}
+
+	.btn h3 {
+		display: none;
+	}
+
+	.cts{
+		display: block;
+	}
+
+	.cts h3 {
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 2vw;
+		line-height: 2vw;
+		/* identical to box height */
+		text-align: center;
+		/* Text/dark */
+		display: block;
+		color: #5875a1;
+	}
+}

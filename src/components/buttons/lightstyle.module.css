@@ -1,0 +1,49 @@
+.mainDiv {
+}
+.btn {
+	color: #002D72;
+	font-family: "Poppins", sans-serif;
+	font-size: 2.3rem !important ;	font-style: normal;
+	font-weight: 500;
+	/*font-size: 1.8rem;*/
+	line-height: 2.7rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+	align-items: center;
+	padding: 12px 32px 12px 12px;
+	min-width: 21.7rem;
+	min-height: 5.1rem;
+
+	background: #b7d3ff;
+	/* Small */
+
+	box-shadow: 22.7283px 21.0814px 45px rgba(0, 0, 0, 0.05),
+		14.7313px 13.6638px 26.3542px rgba(0, 0, 0, 0.037963),
+		8.75461px 8.12022px 14.3333px rgba(0, 0, 0, 0.0303704),
+		4.54566px 4.21627px 7.3125px rgba(0, 0, 0, 0.025),
+		1.85194px 1.71774px 3.66667px rgba(0, 0, 0, 0.0196296),
+		0.420895px 0.390395px 1.77083px rgba(0, 0, 0, 0.012037);
+	border-radius: 2rem;
+	border: none;
+	cursor: pointer;
+}
+
+.svga {
+	width: 2.4rem;
+	height: 2.4rem;
+	border-radius: 50%;
+	/* White */
+	background: #ffffff;
+}
+
+.svgs {
+	background: #6aace5;
+	width: 0.8rem;
+	height: 0.8rem;
+	border-radius: 50%;
+	position: relative;
+	top: 37%;
+	left: 36%;
+}

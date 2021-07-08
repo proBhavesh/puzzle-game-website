@@ -1,0 +1,11 @@
+.footer{
+	color: #002D72;
+	margin-bottom: 0;
+	/*display: flex;*/
+	/*align-self: center;*/
+	position: absolute;
+	left: 50%;
+	bottom: 2rem;
+	font-size: 1.5rem;
+	flex-wrap: wrap;
+}
