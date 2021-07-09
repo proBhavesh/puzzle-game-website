@@ -12,3 +12,7 @@ body {
 	overflow: hidden;
 	font-family: "Poppins", sans-serif;
 }
+
+html, body{
+	overflow: hidden;
+}
