@@ -1,24 +1,27 @@
+/*top level wrappper*/
 .mainDiv {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	height: 70vh;
-	margin-top: 15vh;
-	/*margin-bottom: 15vh;*/
-	/*max-width: 115.2rem;*/
+	max-height: 100vh;
 }
+
+/*first child*/
 
 .mainSec {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: space-around;
 	width: 85vw;
+	height: 100vh;
 }
 
+/*second child*/
 .sideDesign {
 	width: 15vw;
 }
 
+/*heading*/
 .head h1 {
 	color: #002d72;
 	font-style: normal;
@@ -28,18 +31,18 @@
 	text-align: center;
 }
 
+/*subheading*/
 .head p {
 	color: #5875a1;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 1.1vw;
 	line-height: 2vw;
-	/* identical to box height */
-
 	letter-spacing: -0.01em;
 	text-align: center;
 }
 
+/*light blue btns wrapper*/
 .btns {
 	display: flex;
 	flex-direction: row;
@@ -48,9 +51,13 @@
 	/*width: 85vw;*/
 }
 
+/*click to show single line text*/
+
 .cts {
 	display: none;
 }
+
+/*each individul button*/
 
 .btn {
 	/*margin-right: 1rem;*/
@@ -69,10 +76,14 @@
 	color: #5875a1;
 }
 
+/*dark blue submit button*/
+
 .submit {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+/*need help text*/
 
 .helpDiv {
 	flex-wrap: nowrap;
@@ -87,6 +98,8 @@
 	justify-content: space-around;
 	width: 8vw;
 }
+
+/*thin line to seperate light blue btns*/
 
 .line {
 	position: relative;
@@ -104,11 +117,11 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;
-		height: 85vh;
+		height: 100vh;
 		width: 100vw;
 		overflow: hidden;
 		/*margin-top: 15vh;*/
-		margin-bottom: 0vh;
+		/*margin-bottom: 0vh;*/
 	}
 
 	.mainSec {
@@ -116,7 +129,7 @@
 		flex-direction: column;
 		justify-content: space-around;
 		width: 100vw;
-		height: 65vh;
+		height: 85vh;
 		/*margin-bottom: 5rem;*/
 	}
 	.sideDesign {
@@ -161,9 +174,7 @@
 		font-weight: 500;
 		font-size: 2vw;
 		line-height: 2vw;
-		/* identical to box height */
 		text-align: center;
-		/* Text/dark */
 		display: block;
 		color: #5875a1;
 	}
