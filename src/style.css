@@ -13,6 +13,12 @@ body {
 	font-family: "Poppins", sans-serif;
 }
 
+body, html{
+	overflow: hidden !important;
+
+}
+
 .wrapper{
-	overflow: hidden;
+	overflow: hidden !important;
+	position: fixed;
 }
