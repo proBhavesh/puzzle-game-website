@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
 * {
 	font-size: 62.5%;
 }
@@ -13,12 +14,24 @@ body {
 	font-family: "Poppins", sans-serif;
 }
 
-body, html{
+body,
+html {
 	overflow: hidden !important;
-
 }
 
-.wrapper{
+.wrapper {
 	overflow: hidden !important;
 	position: fixed;
+}
+
+@media screen and (max-width: 834px) {
+	body,
+	html {
+		overflow-x: hidden !important;
+	}
+
+	.wrapper {
+		overflow-x: hidden !important;
+		position: fixed;
+	}
 }
