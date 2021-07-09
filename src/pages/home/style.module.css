@@ -2,7 +2,7 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	max-height: 70vh;
+	height: 70vh;
 	margin-top: 15vh;
 	/*margin-bottom: 15vh;*/
 	/*max-width: 115.2rem;*/
@@ -104,7 +104,7 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;
-		max-height: 85vh;
+		height: 85vh;
 		width: 100vw;
 		overflow: hidden;
 		/*margin-top: 15vh;*/
@@ -114,7 +114,7 @@
 	.mainSec {
 		display: flex;
 		flex-direction: column;
-		justify-content: space-between;
+		justify-content: space-around;
 		width: 100vw;
 		height: 65vh;
 		/*margin-bottom: 5rem;*/
