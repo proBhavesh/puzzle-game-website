@@ -1,0 +1,127 @@
+/*top level wrappper*/
+.mainDiv {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	max-height: 100vh;
+}
+
+/*first child*/
+
+.mainSec {
+	width: 85vw;
+	height: 85vh;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	margin-top: 7.5vh;
+}
+
+/*second child*/
+.sideDesign {
+	width: 15vw;
+}
+
+/*need help text*/
+
+.helpDiv {
+	flex-wrap: nowrap;
+	position: absolute;
+	top: 4rem;
+	right: 2rem;
+	color: #2c65d3;
+	font-size: 1.3rem;
+	cursor: pointer;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 8vw;
+}
+
+.puzzleInfo {
+	grid-column: 1/2;
+	grid-row: 1/2;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/*height: 75vh;*/
+}
+
+.puzzleInfo h1 {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 4vw !important;
+	/*line-height: 82px;*/
+	letter-spacing: -0.01em;
+	color: #002d72;
+}
+
+.opaqueBtns {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	width: 30vw;
+	justify-content: center;
+}
+
+.puzzlePiece {
+	grid-column: 2/3;
+	grid-row: 1/2;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+}
+
+.chooseBtn {
+	grid-column: 1/3;
+	grid-row: 2/3;
+	justify-self: center;
+	align-self: center;
+}
+/*<--------------------- Mobile Design ------------------------------------>*/
+
+@media screen and (max-width: 834px) {
+	.mainDiv {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		max-height: 100vh;
+		width: 100vw;
+		overflow: hidden;
+	}
+
+	.mainSec {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 100vw;
+		height: 75vh;
+		margin-top: 10rem;
+		margin-bottom: 1rem;
+	}
+	.sideDesign {
+		height: 15vh;
+		width: 100vw;
+	}
+	.puzzleInfo {
+		all: unset;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.puzzlePiece {
+		all: unset;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-content: center;
+	}
+	.chooseBtn {
+		all: unset;
+	}
+	.opaqueBtns{
+		width: auto;
+	}
+}

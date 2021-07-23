@@ -1,0 +1,72 @@
+/*top level wrappper*/
+.mainDiv {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	max-height: 100vh;
+}
+
+/*first child*/
+
+.mainSec {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 85vw;
+	height: 100vh;
+}
+
+/*second child*/
+.sideDesign {
+	width: 15vw;
+}
+
+/*need help text*/
+
+.helpDiv {
+	flex-wrap: nowrap;
+	position: absolute;
+	top: 4rem;
+	right: 2rem;
+	color: #2c65d3;
+	font-size: 1.3rem;
+	cursor: pointer;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 8vw;
+}
+
+@media screen and (max-width: 834px) {
+	.mainDiv {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		max-height: 100vh;
+		width: 100vw;
+		overflow: hidden;
+		/*margin-top: 15vh;*/
+		/*margin-bottom: 0vh;*/
+	}
+
+	.mainSec {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 100vw;
+		height: 75vh;
+		margin-top: 10rem;
+		margin-bottom: 1rem;
+		/*margin-bottom: 5rem;*/
+	}
+	.sideDesign {
+		height: 15vh;
+		width: 100vw;
+	}
+	.helpDiv {
+		position: absolute;
+		top: 10rem;
+		right: 1.4rem;
+		width: 21vw;
+	}
+}

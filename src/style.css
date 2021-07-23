@@ -10,28 +10,28 @@ body {
 	/*font-size: 62.5%;*/
 	/*now 10px = 1rem*/
 	/*overflow-y: hidden;*/
-	overflow: hidden;
+	overflow-x: hidden;
 	font-family: "Poppins", sans-serif;
 }
 
 body,
 html {
-	overflow: hidden !important;
+	/*overflow: hidden !important;*/
 }
 
 .wrapper {
-	overflow: hidden !important;
-	position: fixed;
+	/*overflow-x: hidden !important;*/
+	/*position: fixed;*/
 }
 
 @media screen and (max-width: 834px) {
 	body,
 	html {
-		overflow-x: hidden !important;
+		/*overflow-x: hidden !important;*/
 	}
 
 	.wrapper {
-		overflow-x: hidden !important;
-		position: fixed;
+		/*overflow-x: hidden !important;*/
+		/*position: fixed;*/
 	}
 }

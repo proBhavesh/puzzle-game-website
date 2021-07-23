@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink as Link } from "react-router-dom";
 import styles from "./style.module.css";
 import { FiHelpCircle } from "react-icons/fi";
 import ReactangleDesign from "../../components/reactangle_design/ReactangleDesign";
@@ -23,7 +24,9 @@ const Home = () => {
 					</div>
 					<div className={styles.btns}>
 						<div className={styles.cts}>
-							<h3>Click To Set</h3>
+							<Link to="/puzzle">
+								<h3>Click To Set</h3>
+							</Link>
 						</div>
 						<div className={styles.btn}>
 							<h3>Click To Set</h3>

@@ -1,0 +1,59 @@
+.mainDiv {
+	left: 10rem;
+	bottom: 10rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	align-items: center;
+	padding: 0px;
+	width: 33rem;
+	max-height: 5rem;
+}
+.btn {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 2.4rem;
+	line-height: 2.7rem;
+	/* submit */
+	border: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 20px 8px 8px;
+	background: #ffffff;
+	/*color: #2c65d3;*/
+	/* Small */
+
+	box-shadow: 22.7283px 21.0814px 45px rgba(0, 0, 0, 0.05),
+		14.7313px 13.6638px 26.3542px rgba(0, 0, 0, 0.037963),
+		8.75461px 8.12022px 14.3333px rgba(0, 0, 0, 0.0303704),
+		4.54566px 4.21627px 7.3125px rgba(0, 0, 0, 0.025),
+		1.85194px 1.71774px 3.66667px rgba(0, 0, 0, 0.0196296),
+		0.420895px 0.390395px 1.77083px rgba(0, 0, 0, 0.012037);
+	border-radius: 0px 20px 20px 0px;
+}
+
+.text {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 2rem !important;
+	line-height: 27px;
+	/* identical to box height */
+
+	text-align: center;
+	text-transform: capitalize;
+
+	/* Button/blue */
+
+	color: #2C65D3;
+}
+
+.svga {
+	color: #2c65d3;
+	/*font-size: 4rem;*/
+	border: 0.5vw solid #2c65d3;
+	border-radius: 2rem;
+	padding: 0px;
+}
